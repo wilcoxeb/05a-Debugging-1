@@ -265,7 +265,7 @@ def broken_4(x, y, radius, window):
       :type window: rg.RoseWindow
       """
     circle = rg.Circle(rg.Point(x, y), radius)
-    circle.fill_color = 'green'
+    circle.fill_color = 'lime green'
     circle.attach_to(window)
     window.render()
 
@@ -313,7 +313,7 @@ def broken_6(n):
 
 
 # -----------------------------------------------------------------------------
-# TODO: 9. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE
+# Done: 9. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE
 #          to correct the mistake(s) in the following function.
 # -----------------------------------------------------------------------------
 def broken_7(n, point, length, distance_between_lines, window):
